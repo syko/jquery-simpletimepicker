@@ -1,0 +1,54 @@
+body {
+  font-family: Verdana, Arial, FreeSans, sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  padding: 40px;
+}
+
+form {
+  padding: 20px 0px;
+}
+form p {
+  overflow: hidden;
+  *zoom: 1; /* clearfix */
+  margin: 20px 0;
+  background: #f8f8f8;
+  padding: 20px;
+}
+input, textarea, select {
+  font: 12px/1.3em "Verdana", "Arial", sans-serif;
+}
+input[type=text], input[type=password], select {
+  display: block;
+  float: left;
+  border: 1px solid #cccccc;
+  background: white;
+  padding: 0px 6px;
+  line-height: 28px;
+  height: 28px;
+  width: 230px;
+  color: #444444;
+  font-size: 12px;
+  margin: 0;
+}
+label {
+  display: block;
+  float: left;
+  line-height: 30px;
+  height: 30px;
+  width: 10em;
+}
+form .time input[type=text] {
+  width: 100px;
+}
+form .time span.clock-attachment {
+  display: block;
+  float: left;
+  width: 28px;
+  height: 28px;
+  background: #f0f0f0 url("clock.png") scroll no-repeat center center;
+  border: 1px solid #dddddd;
+  border-left: none;
+  cursor: pointer;
+}

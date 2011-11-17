@@ -1,0 +1,23 @@
+.simpletimepicker-list {
+  display: block;
+  border: 1px solid #aaaaaa;
+  background: #f6f6f6;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.simpletimepicker-list li, .simpletimepicker-list a {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+.simpletimepicker-list a {
+  padding: 0 4px;
+  height: 1.6em;
+  line-height: 1.6em;
+  text-decoration: none;
+  color: #555555;
+}
+.simpletimepicker-list a:hover, .simpletimepicker-list a:focus, .simpletimepicker-list a:active {
+  background: #e0e0e0;
+}

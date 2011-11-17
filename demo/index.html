@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" href="css/demo.css" />
+	<link rel="stylesheet" href="css/jquery.simpletimepicker.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.simpletimepicker.js"></script>
+	<script type="text/javascript">
+	    jQuery(function($) {
+	        $('#id_time_1').simpleTimePicker({
+	            start_time: '9:00',
+	            end_time: '18:00',
+	            interval: 60
+	        });
+	        $('#id_time_2').simpleTimePicker({
+	            show_on: '.clock-attachment', /* adjacent handle (button) upon which to open */
+	            distance_left: 28, /* the distance from the input */
+	            start_time: '10:00',
+	            end_time: '16:00'
+	        });
+	    });
+	</script>
+</head>
+<body>
+	
+	<h1>jQuery - SimpleTimePicker demo</h1>
+	
+	<form action="">
+	    
+	    <p class="time">
+    	    <label for="id_time_1">Without handle:</label>
+            <input type="text" name="time_1" id="id_time_1" />
+	    </p>
+	    
+        <p class="time with-attachment">
+    	    <label for="id_time_1">With handle:</label>
+            <input type="text" name="time_2" id="id_time_2" />
+            <span class="clock-attachment"></span>
+        </p>
+        
+	</form>
+	
+</body>
+</html>
