@@ -1,0 +1,24 @@
+# Introduction
+
+This is a simple "attachment" for html input fields for inputting times without the keyboard.
+Similar to how you would attach a calendar to a date input, you can attach this to a time input.
+
+# Installation
+
+Just copy jquery.simpletimepicker.js or jquery.simpletimepicker.js to somewhere meaningful and include it in your html.
+
+# Usage
+
+## Simple version:
+
+    $('#yourinput[type=text]').simpleTimePicker();
+
+## Full version:
+
+    $('#yourinput[type=text]').simpleTimePicker({
+        show_on: '.clock-attachment', /* The adjacent button that opens this */
+        distance_left: 28, /* the distance from the input */
+        start_time: '10:00',
+        end_time: '16:00',
+        interval: 30 /* In minutes */
+    });
