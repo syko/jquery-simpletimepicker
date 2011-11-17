@@ -1,8 +1,8 @@
 # Introduction
 
-This is a simple "attachment" for html input fields for inputting times without the keyboard.
-Similar to how you would attach a calendar to a date input, you can attach this to a time input.
-**See snapshot of demo:**
+This is a simple "attachment" for html input fields for inputting times without the keyboard.  
+Similar to how you would attach a calendar to a date input, you can attach this to a time input.  
+**See snapshot of demo:**  
 ![Example snapshot](https://github.com/syko/jquery-simpletimepicker/raw/master/demo/snapshot.jpg) 
 
 # Installation
